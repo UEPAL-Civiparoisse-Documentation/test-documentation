@@ -1,0 +1,177 @@
+site_name: Documentation UEPAL Civiparoisse
+site_url : https://uepal-civiparoisse-documentation.github.io/index.html
+nav:
+    - 'index.md'
+    - 'Mode d''emploi':
+        - 'UTILISATION/mode_emploi/index.md'
+        - 'Introduction': 'UTILISATION/mode_emploi/introduction.md'
+        - 'Débuter': 'UTILISATION/mode_emploi/debuter.md'    
+        - 'Gérer les fiches': 'UTILISATION/mode_emploi/fiches_contact.md'
+        - 'Gérer les relations': 'UTILISATION/mode_emploi/relations.md'
+        - 'Gérer les liens avec la paroisse': 'UTILISATION/mode_emploi/liens_paroisses.md'
+        - 'Faire des recherches sur les contacts': 'UTILISATION/mode_emploi/faire_des_recherches_sur_les_contacts.md'
+        - 'Envoyer un courriel': 'UTILISATION/mode_emploi/envoyer_un_courriel.md'
+        - 'Gérer les groupes': 'UTILISATION/mode_emploi/groupes.md'
+        - 'Utiliser les listes': 'UTILISATION/mode_emploi/listes.md'
+        - 'Que faire quand... ?': 'UTILISATION/mode_emploi/que_faire_quand.md'
+        - 'Gestion des dons et édition des reçus fiscaux': 'UTILISATION/mode_emploi/gestion_des_dons_et_edition_des_recus_fiscaux.md'
+        - 'Créer et gérer un événement': 'UTILISATION/mode_emploi/creer_et_gerer_un_evenement.md'
+        - 'Opérations à mener régulièrement': 'UTILISATION/mode_emploi/operations_a_mener_regulierement.md'
+        - 'Administration locale de la base de données' : 'UTILISATION/mode_emploi/gestion_base_donnees.md'
+        - 'Préparer l''installation initiale de CiviParoisse' : 'UTILISATION/mode_emploi/prepaper_installation.md'
+        - 'Les nouveautés dans CiviParoisse' : 'UTILISATION/mode_emploi/nouveautes_CiviParoisse.md'
+        - 'Ressources utiles': 'UTILISATION/mode_emploi/ressources.md'
+    - 'Présentation du projet':
+        - 'PRESENTATION/index.md'
+        - 'Périmètre fonctionnel': 'PRESENTATION/presentation_fonctionnelle.md'
+        - 'Ecosystème projet': 'PRESENTATION/presentation_ecosysteme.md'
+        - 'Livrables': 'PRESENTATION/presentation_livrables.md'
+    - 'Eléments techniques':
+       - 'TECHNIQUE/index.md'
+       - 'Exploitation':
+           - 'TECHNIQUE/EXPLOITATION/index.md'
+           - 'Logs': 'TECHNIQUE/EXPLOITATION/logs.md'
+       - 'POC': 
+           - 'TECHNIQUE/POC/index.md'
+           - 'Remontage en local': 'TECHNIQUE/POC/remontage_local.md'
+       - 'PRE_POC':           
+           - 'TECHNIQUE/PREPOC/index.md'
+           - 'Description générale': 'TECHNIQUE/PREPOC/prepoc.md'
+           - 'Etudes - précis techniques':
+              - 'TECHNIQUE/PREPOC/ETUDES_PRECIS/index.md'
+              - 'Infrastructure': 'TECHNIQUE/PREPOC/ETUDES_PRECIS/infrastructure.md'
+              - 'Trafic initiateur entrant': 'TECHNIQUE/PREPOC/ETUDES_PRECIS/trafic_entrant.md'
+              - 'Maquettage Traefik': 'TECHNIQUE/PREPOC/ETUDES_PRECIS/traefik.md'
+              - 'Identités et certificats': 'TECHNIQUE/PREPOC/ETUDES_PRECIS/identites_certificats.md'
+              - 'Web Application Firewall': 'TECHNIQUE/PREPOC/ETUDES_PRECIS/waf.md'
+              - 'Intégration CA Ubuntu': 'TECHNIQUE/PREPOC/ETUDES_PRECIS/integration_ca.md'
+              - 'Minikube + Traefik + Wildcard': 'TECHNIQUE/PREPOC/ETUDES_PRECIS/minikube_traefik_wildcard.md'
+           - 'Opérationnel':
+             - 'TECHNIQUE/PREPOC/INTEGRATION/index.md'
+             - 'Déploiement instance': 'TECHNIQUE/PREPOC/INTEGRATION/deploiement_instance.md'             
+             - 'Description générale Docker': 'TECHNIQUE/PREPOC/INTEGRATION/docker.md'
+             - 'Images Docker':                
+                - 'TECHNIQUE/PREPOC/INTEGRATION/DOCKER/index.md'
+                - 'selfkeys': 'TECHNIQUE/PREPOC/INTEGRATION/DOCKER/selfkeys.md'
+                - 'keys_init': 'TECHNIQUE/PREPOC/INTEGRATION/DOCKER/keys_init.md' 
+                - 'mysql_tls_router': 'TECHNIQUE/PREPOC/INTEGRATION/DOCKER/mysql_tls_router.md'
+                - 'mysql_tls_server': 'TECHNIQUE/PREPOC/INTEGRATION/DOCKER/mysql_tls_server.md'
+                - 'composer_base': 'TECHNIQUE/PREPOC/INTEGRATION/DOCKER/composer_base.md'
+                - 'composer_files': 'TECHNIQUE/PREPOC/INTEGRATION/DOCKER/composer_files.md'
+                - 'tools': 'TECHNIQUE/PREPOC/INTEGRATION/DOCKER/tools.md'
+                - 'tools_debug': 'TECHNIQUE/PREPOC/INTEGRATION/DOCKER/tools_debug'
+                - 'init': 'TECHNIQUE/PREPOC/INTEGRATION/DOCKER/init.md'
+                - 'cron': 'TECHNIQUE/PREPOC/INTEGRATION/DOCKER/cron.md'
+                - 'httpd': 'TECHNIQUE/PREPOC/INTEGRATION/DOCKER/httpd.md'
+                - 'httpd_debug': 'TECHNIQUE/PREPOC/INTEGRATION/DOCKER/httpd_debug.md'
+                - 'update': 'TECHNIQUE/PREPOC/INTEGRATION/DOCKER/update.md'
+                - 'test_msmtp_dovecot': 'TECHNIQUE/PREPOC/INTEGRATION/DOCKER/test_msmtp_dovecot.md'
+                - 'gen_hashed_ca': 'TECHNIQUE/PREPOC/INTEGRATION/DOCKER/gen_hashed_ca.md'
+                - 'traefik_docker': 'TECHNIQUE/PREPOC/INTEGRATION/DOCKER/traefik_docker.md'
+             - 'Kubernetes': 
+                - 'TECHNIQUE/PREPOC/INTEGRATION/KUBERNETES/index.md'
+                - 'Maquettage': 'TECHNIQUE/PREPOC/INTEGRATION/KUBERNETES/maquettage.md'
+                - 'Ressources utiles': 'TECHNIQUE/PREPOC/INTEGRATION/KUBERNETES/ressources.md'
+                - 'Chart Helm':
+                  - 'TECHNIQUE/PREPOC/INTEGRATION/KUBERNETES/HELM/index.md'
+                  - 'Description générale': 'TECHNIQUE/PREPOC/INTEGRATION/KUBERNETES/HELM/description_generale.md'
+                  - 'DB et DB Router': 'TECHNIQUE/PREPOC/INTEGRATION/KUBERNETES/HELM/db_dbrouter.md'
+                  - 'Serveur web interne': 'TECHNIQUE/PREPOC/INTEGRATION/KUBERNETES/HELM/httpd.md'
+                  - 'Cron': 'TECHNIQUE/PREPOC/INTEGRATION/KUBERNETES/HELM/cron.md'
+                  - 'Volumes (persistants)': 'TECHNIQUE/PREPOC/INTEGRATION/KUBERNETES/HELM/volumes.md'
+                  - 'Secrets': 'TECHNIQUE/PREPOC/INTEGRATION/KUBERNETES/HELM/secrets.md'
+                  - 'Réservations': 'TECHNIQUE/PREPOC/INTEGRATION/KUBERNETES/HELM/reservations.md'
+                  - 'Serveur mail de démo': 'TECHNIQUE/PREPOC/INTEGRATION/KUBERNETES/HELM/maildemo.md'
+                  - 'Outils': 'TECHNIQUE/PREPOC/INTEGRATION/KUBERNETES/HELM/tools.md'
+       - 'Rôles': 'TECHNIQUE/roles.md'
+       - 'Mail':
+           - 'TECHNIQUE/MAIL/index.md'
+           - 'Problématique': 'TECHNIQUE/MAIL/mail.md'
+           - 'Ecosystème': 'TECHNIQUE/MAIL/ecosysteme.md'
+           - 'Envoi': 'TECHNIQUE/MAIL/sendmail.md'
+           - 'Réception': 'TECHNIQUE/MAIL/fetchmail.md'
+           - 'Opensmtpd Dovecot': 'TECHNIQUE/MAIL/opensmtpd_dovecot.md'
+       - 'Logiciel':
+           - 'TECHNIQUE/LOGICIEL/index.md'
+           - 'Distribution de code': 'TECHNIQUE/LOGICIEL/distribution_code_composer.md'
+           - 'Environnement de dev': 'TECHNIQUE/LOGICIEL/environnement_dev.md'
+           - 'Personnalisation environnement de dev': 'TECHNIQUE/LOGICIEL/environnement_dev_env.md'
+           - 'Importation de données': 'TECHNIQUE/LOGICIEL/importation.md'
+       - 'Intégration Continue':
+           - 'TECHNIQUE/INTEGRATION_CONTINUE/index.md'
+           - 'Docker build et push': 'TECHNIQUE/INTEGRATION_CONTINUE/docker_build_push.md'
+           - 'Tests automatisés : Codeception': 'TECHNIQUE/INTEGRATION_CONTINUE/tests_automatises.md'
+           - 'Tests automatisés : Phpunit': 'TECHNIQUE/INTEGRATION_CONTINUE/tests_phpunit.md'
+           - 'Composer': 'TECHNIQUE/INTEGRATION_CONTINUE/composer_ci.md'
+           - 'Trivy': 'TECHNIQUE/INTEGRATION_CONTINUE/trivy_ci.md'
+           - 'SonarLint et SonarQube': 'TECHNIQUE/INTEGRATION_CONTINUE/sonarqube_ci.md'
+       - 'ARCHIVES':
+           - 'TECHNIQUE/ARCHIVES/index.md'
+    - 'Formation': 
+        - 'FORMATION/index.md'
+
+
+
+
+
+
+
+
+
+theme: 
+   name: material
+   logo: assets/uepal-logo.svg
+   locale: fr
+   language: fr
+   features:
+     - search.suggest
+     - search.highlight
+     - search.share
+     - navigation.sections
+     - navigation.indexes
+     - navigation.tabs
+     - navigation.top
+     - navigation.footer
+#     - navigation.expand
+     - toc.follow
+     - toc.integrate
+   palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+plugins:
+   - search:
+       lang: fr
+use_directory_urls: false
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.details
+  - admonition
+  - pymdownx.superfences
+  - toc:
+     anchorlink: true
+     title: 'Table des matières'
+extra_css:
+  - stylesheets/extra.css
