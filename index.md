@@ -10,4 +10,4 @@ Cette documentation vise trois publics distincts, mais qui peuvent chacun avoir 
 
 Bonne lecture !
 
-Si vous voulez en savoir plus sur le projet Civiparoisse, vous êtes invités à contacter le Service Communication de l'UEPAL.
+Si vous voulez en savoir plus sur le projet Civiparoisse, vous êtes invités à contacter le Service Communication de l'UEPAL..
